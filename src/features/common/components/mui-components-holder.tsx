@@ -8,6 +8,7 @@ export const MuiComponentsHolder = ({ title, children }: TypesHolderProps) => {
       spacing={2}
       direction="row"
       alignItems="center"
+      flexWrap={"wrap"}
     >
       <Typography variant="h5" component={"h3"}>
         {title}
