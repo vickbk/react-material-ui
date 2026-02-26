@@ -3,6 +3,7 @@ import { ButtonGroups } from "@/features/mui-buttons/components/button-group";
 import { ButtonSize } from "@/features/mui-buttons/components/button-size";
 import { IconButtons } from "@/features/mui-buttons/components/icon-buttons";
 import { MuiButtonTypes } from "@/features/mui-buttons/components/mui-button-types";
+import { ToggleButtons } from "@/features/mui-buttons/components/toggle-buttons";
 import { Stack, Typography } from "@mui/material";
 
 export const MuiButton = () => {
@@ -16,6 +17,7 @@ export const MuiButton = () => {
       <ButtonSize />
       <IconButtons />
       <ButtonGroups />
+      <ToggleButtons />
     </Stack>
   );
 };
