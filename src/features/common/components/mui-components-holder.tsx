@@ -1,7 +1,7 @@
 import { Stack, Typography } from "@mui/material";
 import type { TypesHolderProps } from "../types";
 
-export const TypesHolder = ({ title, children }: TypesHolderProps) => {
+export const MuiComponentsHolder = ({ title, children }: TypesHolderProps) => {
   return (
     <Stack
       component={"article"}

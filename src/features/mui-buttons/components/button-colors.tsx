@@ -1,9 +1,9 @@
-import { TypesHolder } from "@/features/common/components/types-holder";
+import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 import { Button } from "@mui/material";
 
 export const ButtonColors = () => {
   return (
-    <TypesHolder title="Button Colors">
+    <MuiComponentsHolder title="Button Colors">
       <Button variant="contained" color="primary">
         Primary
       </Button>
@@ -22,6 +22,6 @@ export const ButtonColors = () => {
       <Button variant="contained" color="success">
         Success
       </Button>
-    </TypesHolder>
+    </MuiComponentsHolder>
   );
 };

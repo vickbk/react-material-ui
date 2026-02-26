@@ -1,11 +1,11 @@
-import { TypesHolder } from "@/features/common/components/types-holder";
+import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Button, ButtonGroup } from "@mui/material";
 
 export const ButtonGroups = () => {
   return (
-    <TypesHolder title="Button Group">
+    <MuiComponentsHolder title="Button Group">
       <ButtonGroup variant="outlined">
         <Button>Left</Button>
         <Button>Center</Button>
@@ -23,6 +23,6 @@ export const ButtonGroups = () => {
         <Button>Center</Button>
         <Button endIcon={<ArrowForwardIcon />}>Right</Button>
       </ButtonGroup>
-    </TypesHolder>
+    </MuiComponentsHolder>
   );
 };

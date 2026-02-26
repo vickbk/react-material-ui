@@ -1,5 +1,9 @@
-import { TypesHolder } from "@/features/common/components/types-holder";
+import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 
 export const ToggleButtons = () => {
-  return <TypesHolder title="Toggle Buttons">Toggle Buttons</TypesHolder>;
+  return (
+    <MuiComponentsHolder title="Toggle Buttons">
+      Toggle Buttons
+    </MuiComponentsHolder>
+  );
 };

@@ -1,11 +1,11 @@
-import { TypesHolder } from "@/features/common/components/types-holder";
+import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 import { Button, IconButton } from "@mui/material";
 
 export const IconButtons = () => {
   return (
-    <TypesHolder title="Icon Buttons">
+    <MuiComponentsHolder title="Icon Buttons">
       <Button variant="contained" color="primary" startIcon={<SendIcon />}>
         Send
       </Button>
@@ -23,6 +23,6 @@ export const IconButtons = () => {
       <IconButton aria-label="Delete" color="success">
         <DeleteIcon />
       </IconButton>
-    </TypesHolder>
+    </MuiComponentsHolder>
   );
 };

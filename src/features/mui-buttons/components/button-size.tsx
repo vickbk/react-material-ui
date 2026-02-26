@@ -1,9 +1,9 @@
-import { TypesHolder } from "@/features/common/components/types-holder";
+import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 import { Button } from "@mui/material";
 
 export const ButtonSize = () => {
   return (
-    <TypesHolder title="Button Sizes">
+    <MuiComponentsHolder title="Button Sizes">
       <Button variant="contained" color="primary" size="small">
         Small
       </Button>
@@ -13,6 +13,6 @@ export const ButtonSize = () => {
       <Button variant="text" color="primary" size="large">
         Large
       </Button>
-    </TypesHolder>
+    </MuiComponentsHolder>
   );
 };
