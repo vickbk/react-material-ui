@@ -1,7 +1,7 @@
 import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
 import { TextField } from "@mui/material";
 
-export const TextFieldsTypes = () => {
+export const TextFieldVariants = () => {
   return (
     <MuiComponentsHolder title="text fields variants">
       <TextField label="Standard" variant="standard" />
