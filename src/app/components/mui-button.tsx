@@ -1,4 +1,5 @@
 import { ButtonColors } from "@/features/mui-buttons/components/button-colors";
+import { ButtonGroups } from "@/features/mui-buttons/components/button-group";
 import { ButtonSize } from "@/features/mui-buttons/components/button-size";
 import { IconButtons } from "@/features/mui-buttons/components/icon-buttons";
 import { MuiButtonTypes } from "@/features/mui-buttons/components/mui-button-types";
@@ -14,6 +15,7 @@ export const MuiButton = () => {
       <ButtonColors />
       <ButtonSize />
       <IconButtons />
+      <ButtonGroups />
     </Stack>
   );
 };
