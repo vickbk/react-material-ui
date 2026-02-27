@@ -1,4 +1,5 @@
 import { MuiComponentsHolder } from "@/features/common/components/mui-components-holder";
+import { Search } from "@mui/icons-material";
 import { TextField } from "@mui/material";
 
 export const TextfieldAddOns = () => {
@@ -13,7 +14,11 @@ export const TextfieldAddOns = () => {
         label="With some prefix"
         slotProps={{ input: { startAdornment: "@" } }}
       />
-      <TextField label="With icon" InputProps={{ startAdornment: "🔍" }} />
+      <TextField
+        label="With icon"
+        variant={"standard"}
+        slotProps={{ input: { startAdornment: <Search /> } }}
+      />
     </MuiComponentsHolder>
   );
 };
